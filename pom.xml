@@ -22,6 +22,14 @@
   </modules>
 
   <distributionManagement>
+    <snapshotRepository>
+      <id>deployment</id>
+      <url>http://192.168.0.102:8081/repository/helloworld_snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>deployment</id>
+      <url>http://192.168.0.102:8081/repository/helloworld_release/</url>
+    </repository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
